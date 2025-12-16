@@ -1,12 +1,5 @@
 # JFPTS
 JFPTS, the main folder is used to reproduce JFPTS-enhanced t-SSVEPformer, and the Figure_1 folder is used to reproduce Figure 1 of the paper.
-## The core code of the FPD in JFPTS in data_generator_1st_wMixUp.py (or data_generator_1st_woMixUp.py)
-1. f_s = f_list[m]
-2. period_frame = 250/f_s
-3. period_total = (1250-win_train) // period_frame
-4. period_n = sample(range(int(period_total+1)), 1)[0]
-5. time_start = 35+125 + round(period_frame*period_n)
-
 ## The related version information
 1. Python == 3.9.13
 2. Keras-gpu == 2.6.0
