@@ -62,9 +62,9 @@ if __name__ == '__main__':
     # visual latency is set to 108 ms for this example,27 = 0.108 *250, 125 is the cue time
     start_point = 125+27
     # solid line width
-    linewidth_1 = 4
+    linewidth_1 = 1.35
     # dotted line width
-    linewidth_2 = 2
+    linewidth_2 = 1
     
     # creat plot-related list
     # freqency indicx list in benchmark EEG data, for stimulus of 12, 12.2,12.4 Hz
@@ -105,12 +105,12 @@ if __name__ == '__main__':
         ffx1,ffy_ori1 = ffx1[frame1:frame2],ffy_ori1[frame1:frame2]
         
         
-        fig, ax = plt.subplots(figsize=(12,6))
+        fig, ax = plt.subplots(figsize=(4,2))
         ax.yaxis.set_major_locator(MultipleLocator(0.2))
-        for spine in ax.spines.values():
+        # for spine in ax.spines.values():
     
-            spine.set_linewidth(2)
-        plt.tick_params(width=2)
+        #     spine.set_linewidth(2)
+        # plt.tick_params(width=2)
         
         
         plt.plot(ffx1,ffy_ori1,linewidth=linewidth_1,color=color_plot)
