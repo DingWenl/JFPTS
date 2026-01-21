@@ -1,5 +1,5 @@
 # JFPTS
-1. Here are the codes of the JFPTS-enhanced t-SSVEPformer in the paper ["Breaking the performance barrier in deep learning-based SSVEP-BCIs: a joint frequency-phase training strategy“]().
+1. Here are the codes of the JFPTS-enhanced t-SSVEPformer in the paper ["Breaking the performance barrier in deep learning-based SSVEP-BCIs: a joint frequency-phase training strategy“](https://iopscience.iop.org/article/10.1088/1741-2552/ae36f6).
 2. the main folder is used to reproduce JFPTS-enhanced t-SSVEPformer, and the Figure_1 folder is used to reproduce Figure 1 of the paper.
 ## The related version information
 1. Python == 3.9.13
