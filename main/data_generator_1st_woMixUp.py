@@ -8,13 +8,11 @@ def train_datagenerator(batchsize,train_data1,train_data2,train_data3,win_train,
     while True:
         x_train, y_train = list(range(batchsize)), list(range(batchsize))
         target_list = list(range(40))
-        index_list = list(range(batchsize))
-        B = 0.5
+
 
         list_batchsize = list(range(batchsize))
         random.shuffle(list_batchsize)
         for i in range(int(batchsize)):
-            index_list[i] = np.random.beta(B,B)
             k = sample(train_list, 1)[0]
             m = sample(target_list, 1)[0]
             
