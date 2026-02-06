@@ -143,7 +143,6 @@ if __name__ == '__main__':
         for t_train in t_train_list:
             # transfer time to frame
             win_train = int(fs*t_train)
-            # the traing data is randomly divided in the traning dataset and validation set according to the radio of 9:1
             for block_n in range(6):
                 total_list = list(range(6))
                 test_list = [block_n]
